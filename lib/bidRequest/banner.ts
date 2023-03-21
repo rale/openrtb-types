@@ -3,7 +3,7 @@ import {BooleanNumber} from "../common/types";
 import {APIFramework, ExpandableDirection, MimeType} from "../common/enums";
 
 export type Banner = {
-    format?: Format
+    format?: Format[]
     w?: number
     h?: number
     btype?: number[]
